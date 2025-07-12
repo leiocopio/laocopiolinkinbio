@@ -8,6 +8,7 @@ justify-around h-[100vh]
 items-center 
 max-md:flex-col 
 max-md:justify-center
+align-center
 mx-[3rem]
 max-md:mx-[2.5rem]
 ">

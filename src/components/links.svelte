@@ -8,7 +8,7 @@
         Follow me on:
     </span>
     
-    <nav class="flex max-md:grid grid-cols-3 grid-rows-0 gap-4 ">
+    <nav class="flex  max-md:grid grid-cols-3 justify-items-center grid-rows-0 gap-4 ">
         
         <a 
         href="https://www.tiktok.com/@ocopio.l" 
@@ -19,7 +19,7 @@
         hover:bg-[#010101]
         hover:text-white">
 
-            <Icon icon="ic:baseline-tiktok" width="24" height="24" />
+ <Icon icon="ic:round-tiktok" width="24" height="24" class="my-auto" />
         </a>
         
         
@@ -112,6 +112,7 @@
         border-width: 1px;
         border-radius: 50%;
         padding: 1rem;
+ display: flex;
 
 
     }
