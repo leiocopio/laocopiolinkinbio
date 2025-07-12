@@ -1,16 +1,23 @@
 <script>
 
-    let websiteName = "[Your Link in Bio Website Name]";
-    let yourNameOrCompany = "[Your Name/Your Company Name]";
-    let linkInBioUrl = "[Your Link in Bio URL, e.g., linktr.ee/yourusername]";
-    let yourStateOrCountry = "[Your State/Country, e.g., the Philippines]";
-    let yourEmail = "[Your Email Address]";
+    let websiteName = "L. A. Ocopio";
+    let yourNameOrCompany = "L. A. Ocopio";
+    let linkInBioUrl = "laocopio.vercel.app";
+    let yourEmail = "louiseangeloocopio@gmail.com";
     let contactPageLink = "[Link to your contact page or a specific contact form if applicable]";
+    let yourStateOrCountry = "Philippines";
+
 </script>
+
+<svelte:head>
+    <title>
+        Terms and Conditions | L. A. Ocopio
+    </title>
+</svelte:head>
 
 <div class="bg-gray-50 text-gray-800 p-4 sm:p-6 lg:p-8">
     <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 sm:p-8 lg:p-10 my-8">
-        <h1 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-6">Terms and Conditions for {websiteName}</h1>
+        <h1 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-6">Terms and Conditions</h1>
         <p class="text-sm text-gray-500 text-center mb-8">Last Updated: July 12, 2025</p>
 
         <p class="mb-4 leading-relaxed">
@@ -101,7 +108,7 @@
         </p>
         <ul class="list-disc list-inside ml-4 mb-6 space-y-2">
             <li class="leading-relaxed"><strong class="font-medium">By email:</strong> <a href="mailto:{yourEmail}" class="text-blue-600 hover:underline">{yourEmail}</a></li>
-            <li class="leading-relaxed"><strong class="font-medium">By visiting this page on our website:</strong> <a href="{contactPageLink}" class="text-blue-600 hover:underline">{contactPageLink}</a></li>
+            
         </ul>
     </div>
 </div>

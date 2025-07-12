@@ -7,6 +7,12 @@
     let contactPageLink = "[Link to your contact page or a specific contact form if applicable]";
 </script>
 
+<svelte:head>
+    <title>
+        Privacy Policy | L. A. Ocopio
+    </title>
+</svelte:head>
+
 <div class="bg-gray-50 text-gray-800 p-4 sm:p-6 lg:p-8" >
     <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 sm:p-8 lg:p-10 my-8">
         <h1 class="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-6">Privacy Policy</h1>
